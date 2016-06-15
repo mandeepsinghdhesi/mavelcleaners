@@ -1,0 +1,77 @@
+body{
+	margin: 0;
+	background: url('../img/login.png') no-repeat;
+	font-size: 1em;
+}
+
+.login-ctrls{
+	position: absolute;
+	z-index: 7;
+	left: 55px;
+	text-align: left;
+
+}
+#userName{
+    top: 854px;
+    width: 600px;
+    height: 97px;
+    font-size: 2.5em;
+    font-style: italic;
+    border: 0px;
+    line-height: 2.5em;
+}
+
+#pwd{
+	top:1044px;
+	width: 600px;
+    height: 97px;
+    font-size: 2.5em;
+    font-style: italic;
+    border: 0px;
+    line-height: 2.5em;
+}
+
+input[type="text"]:focus, input[type="password"]:focus,input{
+    outline:none;
+    box-shadow: none !important;
+
+
+}
+#btn-submit{
+	
+    top: 1366px;
+    height: 155px;
+    width: 877px;
+    font-size: 3em;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+#asset{
+	background: url('../img/assest.png') no-repeat;
+}
+#asset label{
+    font-size: 3em;
+    top: 1615px;
+    height: 100px;
+    width: 307px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    left: 115px;
+
+}
+
+#vin{
+	background: url('../img/vin.png') no-repeat ;
+	}
+#add-It{
+    top: 1588px;
+    height: 115px;
+    width: 279px;
+    left: 643px;
+    font-size: 2.5em;
+    text-align: center;
+    text-transform: uppercase;
+}
