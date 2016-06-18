@@ -49,29 +49,85 @@ input[type="text"]:focus, input[type="password"]:focus,input{
 }
 
 #asset{
-	background: url('../img/assest.png') no-repeat;
+	background: url('../img/assest-iphone.jpg') no-repeat;
 }
-#asset label{
-    font-size: 3em;
-    top: 1615px;
-    height: 100px;
-    width: 307px;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 500;
-    left: 115px;
 
-}
 
 #vin{
 	background: url('../img/vin.png') no-repeat ;
 	}
 #add-It{
-    top: 1588px;
-    height: 115px;
-    width: 279px;
-    left: 643px;
+    top: 1446px;
+    height: 131px;
+    width: 200px;
+    left: 733px;
     font-size: 2.5em;
     text-align: center;
     text-transform: uppercase;
+    background: url('../img/plus.gif') no-repeat;
+    border: none;
+    cursor: pointer;
+
+}
+/*Car Loan*/
+#car-loan{
+    background: url('../img/loansOnCar1.jpg') no-repeat ;
+}
+#loan-chkbox{
+    position: absolute;
+    top: 636px;
+    left: 339px;
+    font-size: 2.5em;
+}
+.chk-size{
+    width: 4em;
+    height: 3em;
+}
+#loan-btn{
+    top: 1422px;
+    height: 131px;
+    width: 90%;
+    left: 57px;
+    font-size: 3.5em;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #0061C5;
+    border: none;
+    cursor: pointer;
+    color: #FFF;
+}
+#loan-container{
+    position: absolute;
+    top: 779px;
+    width: 12em;
+    left: 535px;
+
+}
+#loan-container input{
+    height: 2em;
+    width: 9em;
+    font-size: 2.5em;
+    border: none;
+    color: gray;
+
+}
+#loan-start-date {
+    
+}
+#loan-end-date {
+    position: relative;
+    top: 100px;
+}
+#loan-amt {
+    position: relative;
+    top: 166px;
+}
+#monthly-payment {
+    position: relative;
+    top: 256px;
+
+}
+/*Car Equity*/
+#car-equity{
+    background: url('../img/carequity1.png') no-repeat ;
 }
